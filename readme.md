@@ -21,11 +21,7 @@ This repository contains the main data and scripts used in 'An Empirical Study o
   * The folder contains the data used for training.
   * label = 0 means a comment received feedback.
   * label = 1 means a comment did not receive feedback.
-        
-* result
-
-  * The folder contains the results obtained after training.
-        
+               
 * main.py
 
   * It contains the code for our model training, that is, the implementation of classification techniques.
