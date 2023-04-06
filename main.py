@@ -8,7 +8,7 @@
 
     ```shell
         python3 main.py --task "gatting_10fold" \
-                        --data_root "./data" \
+                        --data_root "./training_dataset" \
                         --result_root "./reproducing_results"\
                         --model "gatting" \
                         --global_seed 413 \
@@ -21,7 +21,7 @@
 
     ```shell
         python3 main.py --task "gatting_10fold" \
-                        --data_root "./data" \
+                        --data_root "./training_dataset" \
                         --result_root "./reproducing_results"\
                         --model "gatting" \
                         --global_seed 413 \

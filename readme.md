@@ -66,7 +66,7 @@ pip3 install -r requirements.txt
 
 ```shell
 python3 main.py --task "gatting_10fold" \
-                --data_root "./data" \
+                --data_root "./training_dataset" \
                 --result_root "./results"\
                 --model "gatting" \
                 --global_seed 413 \
@@ -78,7 +78,7 @@ python3 main.py --task "gatting_10fold" \
 
 ```shell
 python3 main.py --task "comment_10fold" \
-                --data_root "./data" \
+                --data_root "./training_dataset" \
                 --result_root "./results"\
                 --model "comment only" \
                 --global_seed 413 \
@@ -91,7 +91,7 @@ python3 main.py --task "comment_10fold" \
 
 ```shell
 python3 main.py --task "concat_10fold" \
-                --data_root "./data" \
+                --data_root "./training_dataset" \
                 --result_root "./results"\
                 --model "concat" \
                 --global_seed 413 \
@@ -104,7 +104,7 @@ python3 main.py --task "concat_10fold" \
 
 ```shell
 python3 main.py --task "concat+mlp_10fold" \
-                --data_root "./data" \
+                --data_root "./training_dataset" \
                 --result_root "./results"\
                 --model "concat+mlp" \
                 --global_seed 413 \
@@ -117,7 +117,7 @@ python3 main.py --task "concat+mlp_10fold" \
 
 ```shell
 python3 main.py --task "mlp+concat_10fold" \
-                --data_root "./data" \
+                --data_root "./training_dataset" \
                 --result_root "./results"\
                 --model "mlp+concat" \
                 --global_seed 413 \
